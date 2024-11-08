@@ -11,15 +11,15 @@ const questions = [
         question: '¿Cuál es el valor absoluto (o módulo) del número: +36?',
         options: ['-36', '36', '+36', '0'],
         correctAnswer: '36',
-        correctGif: "", 
-        incorrectGif: ""
+        correctGif: "https://media1.tenor.com/m/Lbrr3HR3CnkAAAAd/snoop-dogg-rap.gif", //Snoop dog bailecito
+        incorrectGif: "https://media.tenor.com/7zmfFmzCUJIAAAAi/sad-spongebob.gif" //Bob esponja la shorazion
       },
 
     {
         question: '¿Cuál es el valor absoluto (o módulo) del número: -878?',
         options: ['-878', '+878', '0', '878'],
         correctAnswer: '878',
-        correctGif: "", 
+        correctGif: "https://media1.tenor.com/m/KmO0ZsSmxsEAAAAd/celebration-dance.gif", 
         incorrectGif: ""
       },
 
