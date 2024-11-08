@@ -16,6 +16,12 @@ body {
     max-width: 800px;
     width: 100%;
   }
+
+  .question-number {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
   
   .question {
     font-size: 16px;
@@ -56,7 +62,7 @@ body {
   
   .result {
     margin-top: 20px;
-    font-size: 1.2em;
+    font-size: 20px;
     text-align: center;
   }
   
