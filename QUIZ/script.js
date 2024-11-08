@@ -21,21 +21,21 @@ const questions = [
       },
 
         {
-        question: 'Al SUMAR (+) dos números que tienen el mismo signo, primero se deben sumar sus valores absolutos y luego al resultado se le agrega el mismo signo de los números.<br><br>Por ejemplo:<br> (+3) + (+2) = +5 (Es positivo porque los dos numeros de la suma son positivos) <br> -4 + (-1) = -5 (Es negativo porque los dos numeros de la suma son negativos) <br><br>Ahora responde: ¿Cuál es el resultado de sumar: (+12) + (+5)?',
+        question: 'Al SUMAR (+) dos números que tienen el mismo signo, primero se deben sumar sus valores absolutos y luego al resultado se le agrega el mismo signo de los números.<br><br>Por ejemplo:<br> (+3) + (+2) = +5 (Es positivo porque los dos números de la suma son positivos) <br> -4 + (-1) = -5 (Es negativo porque los dos números de la suma son negativos) <br><br>Ahora responde: ¿Cuál es el resultado de sumar: (+12) + (+5)?',
         options: ['+17', '-17', '+15', '-15'],
         correctAnswer: '+17',
         image: '' // Imagen opcional
       },
 
           {
-        question: '¿Cuál es el resultado de sumar: (-74) + (-6)',
+        question: '¿Cuál es el resultado de sumar: (-74) + (-6)?',
         options: ['+79', '-76', '-80', '+80'],
         correctAnswer: '-80',
         image: '' // Imagen opcional
       },
       
           {
-        question: '¿Cuál es el resultado de sumar: (-25) + (-15)',
+        question: '¿Cuál es el resultado de sumar: (-25) + (-15)?',
         options: ['+35', '-40', '+45', '-50'],
         correctAnswer: '-40',
         image: '' // Imagen opcional
@@ -79,7 +79,7 @@ const questions = [
       },
 
           {
-        question: '¿Cuál es el resultado de multiplicar: (+6) × (+4) ?',
+        question: '¿Cuál es el resultado de multiplicar: (+6) × (+4)?',
         options: ['+24', '+42', '-12', '+16'],
         correctAnswer: '+24',
         image: '' // Imagen opcional
