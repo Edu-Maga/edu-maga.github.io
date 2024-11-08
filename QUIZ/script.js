@@ -11,7 +11,7 @@ const questions = [
         question: '¿Cuál es el valor absoluto (o módulo) del número: +36?',
         options: ['-36', '36', '+36', '0'],
         correctAnswer: '36',
-        correctGif: "https://media1.tenor.com/m/Lbrr3HR3CnkAAAAd/snoop-dogg-rap.gif", //Snoop dog bailecito
+        correctGif: "https://c.tenor.com/Lbrr3HR3CnkAAAAd/tenor.gif", //Snoop dog bailecito
         incorrectGif: "https://media.tenor.com/7zmfFmzCUJIAAAAi/sad-spongebob.gif" //Bob esponja la shorazion
       },
 
