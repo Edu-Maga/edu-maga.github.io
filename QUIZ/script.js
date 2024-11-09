@@ -97,6 +97,79 @@ const questions = [
         incorrectGif: ""
       },
 
+          {
+        question: '¿Cuál es el resultado de multiplicar: (-3) × (-5)?',
+        options: ['+15', '-35', '-40', '-45'],
+        correctAnswer: '+15',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+
+        {
+        question: 'Al MULTIPLICAR dos números con signos DISTINTOS, el producto siempre será NEGATIVO. <br>Esto se debe a que cuando los números tienen signos diferentes, su multiplicación da como resultado un número negativo.<br>+ x - = - <br> - x + = - <br><br>Por ejemplo:<br><br>(+5) × (-3)<br>Multiplicamos los valores absolutos: 5 × 3 = 15.<br>Como los números tienen signos diferentes, el producto será negativo.<br><br>Resultado: (+5) × (-3) = -15<br><br>Ahora responde:<br><br>(-7) × (+2) = ',
+        options: ['+14', '-14', '+15', '-15'],
+        correctAnswer: '-14',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+
+        {
+        question: '¿Cuál es el resultado de multiplicar: (+8) × (-2)?',
+        options: ['-15', '-16', '+28', '+16'],
+        correctAnswer: '-16',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+
+        {
+        question: '¿Cuál es el resultado de multiplicar: (-9) × (+3)?',
+        options: ['-26', '-27', '+28', '+29'],
+        correctAnswer: '-27',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+
+        {
+        question: 'Al DIVIDIR dos números con el MISMO signo, el cociente siempre será POSITIVO.<br>Esto se debe a que cuando ambos números tienen el mismo signo, su división da como resultado un número positivo.<br>+ ÷ + = + <br> - ÷ - = + <br><br>Por ejemplo:<br><br>(+12) ÷ (+4)<br>Dividimos los valores absolutos: 12 ÷ 4 = 3.<br>Como ambos números tienen signo positivo, el cociente será positivo.<br><br>Resultado: (+12) ÷ (+4) = +3<br><br>Ahora responde:<br><br>(-18) ÷ (-6) = ',
+        options: ['-3', '+2', '-4', '+3'],
+        correctAnswer: '+3',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+
+        {
+        question: '¿Cuál es el resultado de dividir: (+20) ÷ (+5)?',
+        options: ['+4', '+10', '+5', '-5'],
+        correctAnswer: '+4',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+
+      {
+        question: '¿Cuál es el resultado de dividir: (-30) ÷ (-6)?',
+        options: ['+5', '-5', '-7', '-6'],
+        correctAnswer: '+5',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+
+        {
+        question: 'Al DIVIDIR dos números con signos DISTINTOS, el cociente siempre será NEGATIVO. <br>Esto se debe a que cuando los números tienen signos diferentes, su división da como resultado un número negativo.<br>+ ÷ - = - <br> - ÷ + = - <br><br>Por ejemplo:<br><br>(+24) ÷ (-6)<br>Dividimos los valores absolutos: 24 ÷ 6 = 4.<br>Como los números tienen signos diferentes, el cociente será negativo.<br><br>Resultado: (+24) ÷ (-6) = -4<br><br>Ahora responde:<br><br>(-15) ÷ (+3) = ',
+        options: ['-5', '+5', '-3', '+3'],
+        correctAnswer: '-5',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+
+        {
+        question: '¿Cuál es el resultado de dividir: (+36) ÷ (-9)?',
+        options: ['-4', '+9', '-5', '+4'],
+        correctAnswer: '-4',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+
+
     // {
     //     question: '',
     //     options: ['', '', '', ''],
