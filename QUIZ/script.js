@@ -281,9 +281,41 @@ const questions = [
       },
 // 36
       {
-        question: 'RAIZ DE UNA MULTIPLICACIÓN: <br>Cuando se pide la raiz de una multiplicacion entre dos numeros (Ej: <sup>n</sup>√(𝑎 × 𝑏)) Es lo mismo que: <sup>n</sup>√𝑎 × <sup>n</sup>√𝑏. <br><br> Ejemplos: <br><br><sup>n</sup>√(𝑎 × 𝑏) = <sup>n</sup>√𝑎 × <sup>n</sup>√𝑏 <br><br><sup>3</sup>√(8 × 27) = <sup>3</sup>√8 × <sup>3</sup>√27 <br><br><sup>4</sup>√(16 × 81) = <sup>4</sup>√16 × <sup>4</sup>√81 <br><br>Simplifica: <sup>2</sup>√(16 × 25).',
-        options: ['', '', '', ''],
-        correctAnswer: '',
+        question: 'RAIZ DE UNA MULTIPLICACIÓN: <br>Cuando se pide la raiz de una multiplicacion entre dos numeros (Ej: <sup>n</sup>√(𝑎 × 𝑏)) Es lo mismo que: <sup>n</sup>√𝑎 × <sup>n</sup>√𝑏. <br><br> Ejemplos: <br><br><sup>n</sup>√(𝑎 × 𝑏) = <sup>n</sup>√𝑎 × <sup>n</sup>√𝑏 <br><br><sup>3</sup>√(8 × 27) = <sup>3</sup>√8 × <sup>3</sup>√27 <br><br><sup>4</sup>√(16 × 81) = <sup>4</sup>√16 × <sup>4</sup>√81 <br><br>Simplifica la raiz de la siguiente multiplicacion y responde el resultado correcto: <sup>2</sup>√(16 × 25).',
+        options: ['10', '30', '20', '15'],
+        correctAnswer: '20',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+// 37
+    {
+        question: 'RAÍZ DE UNA DIVISIÓN: <br>Cuando se pide la raiz de una division entre dos numeros <br> (Ejemplo: n√(𝑎 ÷ 𝑏)) Es lo mismo que: n√𝑎 ÷ n√𝑏 <br><br> Ejemplos: <br><br> <sup>n</sup>√(𝑎 ÷ 𝑏) = <sup>n</sup>√𝑎 ÷ <sup>n</sup>√𝑏 <br><br> <sup>2</sup>√(64 ÷ 16) = <sup>2</sup>√64 ÷ <sup>2</sup>√16 <br><br> <sup>3</sup>√(81 ÷ 9) = <sup>3</sup>√81 ÷ <sup>3</sup>√9 <br><br> <sup>4</sup>√(49 ÷ 7) = <sup>4</sup>√49 ÷ <sup>4</sup>√7 <br><Br> Simplifica la raiz de la siguiente division y responde el resultado correcto: ∛(64 / 8). ',
+        options: ['2', '4', '6', '8'],
+        correctAnswer: '2',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+// 38
+        {
+        question: 'RAÍZ DE UN NÚMERO CON POTENCIA: <br>La raíz de una potencia es igual a la potencia de la raíz. <br> Ejemplo: √(𝑎<sup>n</sup>) = (√𝑎)<sup>n</sup> <br><br> Simplifica y responde el resultado correcto: √(4<sup>2</sup>).',
+        options: ['4', '2', '8', '16'],
+        correctAnswer: '4',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+// 39
+        {
+        question: '¿Cuál es el resultado de: <sup>2</sup>√(9 × 25).?',
+        options: ['8', '15', '20', '25'],
+        correctAnswer: '15',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+// 40
+        {
+        question: '¿Cuál es el resultado de: <sup>2</sup>√(36 × 49).?',
+        options: ['30', '36', '42', '47'],
+        correctAnswer: '42',
         correctGif: "", 
         incorrectGif: ""
       },
@@ -299,7 +331,7 @@ const questions = [
   
 let currentQuestionIndex = 0;
 let score = 0;
-const scoreIncrement = 0.3125; // Ajusta este valor para cambiar la puntuación por cada respuesta correcta
+const scoreIncrement = 0.25; // Ajusta este valor para cambiar la puntuación por cada respuesta correcta
 
 const questionElement = document.getElementById('question');
 const imageElement = document.getElementById('question-image');
