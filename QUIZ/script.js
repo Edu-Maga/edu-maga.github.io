@@ -255,7 +255,38 @@ const questions = [
         correctGif: "", 
         incorrectGif: ""
       },
-
+// 33
+    {
+        question: 'Simplifica la siguiente expresión usando las propiedades de la potenciación: <br> <br>3<sup>4</sup> × 3<sup>2</sup> ÷ 3<sup>3</sup>.',
+        options: ['3<sup>2</sup>', '3<sup>3</sup>', '3<sup>4</sup>', '3<sup>5</sup>'],
+        correctAnswer: '3<sup>3</sup>',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+// 34 
+        {
+        question: 'RAÍCES: <br>La raíz cuadrada de un número es el valor que, multiplicado por sí mismo, da como resultado ese número. <br>Ejemplo: La raíz cuadrada de 9 es 3, ya que 3 × 3 = 9. <br><br> Ahora responde: ¿Cuál es la raíz cuadrada de 16?',
+        options: ['&radic;16 = 2', '&radic;16 = 4', '&radic;16 = 6', '&radic;16 = 8'],
+        correctAnswer: '',
+        correctGif: "", 
+        incorrectGif: ""
+      },
+// 35
+      {
+        question: 'Las siguientes son las raíces más básicas:<br>√1 = 1<br>√4 = 2<br>√9 = 3<br>√16 = 4<br>√25 = 5<br>√36 = 6<br>√49 = 7<br>√64 = 8<br>√81 = 9<br>√100 = 10<br><br>Ahora responde: ¿Cuál es la raíz cuadrada de 121?',
+        options: ['11', '12', '10', '13'],
+        correctAnswer: '11',
+        correctGif: "",
+        incorrectGif: ""
+      },
+// 36
+      {
+        question: 'RAIZ DE UNA MULTIPLICACIÓN: <br>Cuando se pide la raiz de una multiplicacion entre dos numeros (Ej: <sup>n</sup>√(𝑎 × 𝑏)) Es lo mismo que: <sup>n</sup>√𝑎 × <sup>n</sup>√𝑏. <br><br> Ejemplos: <br><br><sup>n</sup>√(𝑎 × 𝑏) = <sup>n</sup>√𝑎 × <sup>n</sup>√𝑏 <br><br><sup>3</sup>√(8 × 27) = <sup>3</sup>√8 × <sup>3</sup>√27 <br><br><sup>4</sup>√(16 × 81) = <sup>4</sup>√16 × <sup>4</sup>√81 <br><br>Simplifica: <sup>2</sup>√(16 × 25).',
+        options: ['', '', '', ''],
+        correctAnswer: '',
+        correctGif: "", 
+        incorrectGif: ""
+      },
 
     // {
     //     question: '',
@@ -300,7 +331,7 @@ function showQuestion() {
   currentQuestion.options.forEach(option => {
     const li = document.createElement('li');
     const button = document.createElement('button');
-    button.textContent = option;
+    button.innerHTML = option;
     button.onclick = () => handleAnswerSelect(option);
     li.appendChild(button);
     optionsElement.appendChild(li);
